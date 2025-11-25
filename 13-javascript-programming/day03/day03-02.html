@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>sample</title>
+        <script>
+            var sample = [
+                '1. Time is gold.',
+                '2. No sweat, no sweet.',
+                '3. Asking costs nothing.',
+                '4. Step by step goes a long way.',
+                '5. You will never know untio you try.'
+            ];
+            var i = 0;
+            var timerID = window.setInterval(function() {
+                console.log(sample[i++]);
+            },2000);
+
+            window.setTimeout( function() {
+                window.clearInterval(timerID);
+            },10000);
+    
+        </script>
+          
+
+    </head>
+    <body>
+    </body>
+</html> 
